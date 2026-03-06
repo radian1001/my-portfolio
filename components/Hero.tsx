@@ -42,7 +42,7 @@ export default function Hero() {
           </button>
           
           <a
-            href="/resume.pdf"
+            href="/my-portfolio/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full border border-white/10 bg-white/5 px-8 py-4 text-sm font-medium text-white backdrop-blur-md transition-all hover:bg-white/10 hover:scale-105 active:scale-95"
@@ -52,7 +52,7 @@ export default function Hero() {
           </a>
 
           <a
-            href="/resume.pdf"
+            href="/my-portfolio/resume.pdf"
             download="Abhyudaya_Baghel_Resume.pdf"
             className="group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full border border-white/10 bg-white/5 px-8 py-4 text-sm font-medium text-white backdrop-blur-md transition-all hover:bg-white/10 hover:scale-105 active:scale-95"
           >
