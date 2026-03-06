@@ -1,0 +1,140 @@
+{
+  "basics": {
+    "name": "Abhyudaya Baghel",
+    "title": "AWS Java Developer | Emerging Tech Professional",
+    "summary": "I am a proactive technology professional with hands-on experience in software development and data analysis. Armed with a Bachelor of Technology in Computer Science from Kalinga Institute of Industrial Technology, I specialize in Java, C++, Python, and JavaScript, alongside proficiency in frameworks like Django, React, and Node.js. My journey includes impactful internships where I developed dynamic systems in Python and optimized Java and SQL-based solutions, enhancing efficiency across inventory management and client data aggregation. Driven by a passion for innovation and problem-solving, my career journey has been marked by proficiency in languages such as Java, C++, Python, and JavaScript, complemented by expertise in frameworks like Django, React, and Node.js. I have honed these skills through hands-on projects, including a dynamic inventory management system in Python and optimized client data aggregation solutions using Java and SQL. My internships at Elite Techno Group and HighRadius have equipped me with practical experience in software development and data analysis, setting the stage for my next role in leveraging technology to drive impactful solutions. I am actively seeking opportunities where I can apply my technical skills and contribute to innovative projects. With a keen interest in roles that challenge me to innovate and solve complex problems using emerging technologies, I am eager to join a dynamic team that fosters growth and collaboration. Let's connect to explore how my skills can contribute to your organization's success.",
+    "location": "Raipur, Chhattisgarh, India / Hyderabad, India",
+    "email": "baghelabhyudaya@gmail.com",
+    "phone": "+91-8269220718",
+    "links": [
+      { "name": "LinkedIn", "url": "https://www.linkedin.com/in/abhyudaya1402" },
+      { "name": "GitHub", "url": "https://github.com" },
+      { "name": "Portfolio", "url": "#" }
+    ]
+  },
+  "experience": [
+    {
+      "company": "Deloitte",
+      "role": "AWS Java Developer / Analyst",
+      "dates": "October 2024 – Present",
+      "location": "Hyderabad, India",
+      "bullets": [
+        "Modernizing legacy systems into an event-driven AWS cloud architecture using Lambda, Step Functions, EventBridge, and S3, enhancing scalability and automation efficiency.",
+        "Developed and deployed serverless Java-based AWS Lambda functions integrated with PostgreSQL (RDS) using Spring JDBC, securing APIs with ADFS authentication.",
+        "Implemented CI/CD automation using Jules and Spinnaker, provisioning infrastructure with Terraform and maintaining database versioning via Liquibase.",
+        "Driving system modernization by developing backend services with Java (Maven) and Spring Boot, integrating AWS components like Lambda, Step Functions, EventBridge, and S3.",
+        "Within an Agile environment, design efficient workflows to replace legacy systems, boosting reliability and scalability while deepening expertise in microservices and cloud-native architectures."
+      ]
+    },
+    {
+      "company": "HighRadius",
+      "role": "Java Developer Intern",
+      "dates": "July 2023 – October 2023",
+      "location": "Bhubaneswar, Odisha",
+      "bullets": [
+        "Enhanced client data aggregation workflows by debugging and optimizing Java–Spring–SQL applications, achieving a 30% increase in efficiency.",
+        "Analyzed and optimized legacy systems, resulting in a 25% improvement in performance and responsiveness.",
+        "Actively contributed to projects involving Data Migration and Robotic Process Automation, honing proficiency in SQL and Java.",
+        "Effectively utilized tools such as Eclipse IDE, Putty, Jira, and MySQL to support and optimize these projects."
+      ]
+    },
+    {
+      "company": "Elite Techno Group",
+      "role": "Python Developer Intern (ML & AI)",
+      "dates": "August 2021 – October 2021",
+      "location": "Remote, India",
+      "bullets": [
+        "Developed a dynamic inventory management system using Python and JSON, improving record management by 40%.",
+        "Performed data analysis and visualization on Olympic datasets, identifying performance trends and improving analytical decision accuracy by 50%.",
+        "Brought advanced skills in Pandas and NumPy, with a passion for data analysis and strong problem-solving abilities."
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "item": "150+",
+      "title": "Algorithmic Problems Solved",
+      "context": "Solved on LeetCode, demonstrating strong problem-solving and data structure proficiency."
+    },
+    {
+      "item": "Top 250",
+      "title": "Coding Competition Rank",
+      "context": "Ranked 213th in the Newton School Coding Competition among 10,000+ candidates."
+    },
+    {
+      "item": "30%",
+      "title": "Efficiency Increase",
+      "context": "Achieved by debugging and optimizing Java–Spring–SQL applications at HighRadius."
+    },
+    {
+      "item": "40%",
+      "title": "Record Management Improvement",
+      "context": "Improved by developing a dynamic inventory management system using Python and JSON."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Web3 Blockchain Crowdfunding Platform",
+      "stack": "Ethereum, Solidity, Web3.js",
+      "bullets": [
+        "Developed a decentralized crowdfunding application using Ethereum, Solidity, and Web3.js, ensuring secure and transparent transactions.",
+        "Enabled creation and contribution to smart-contract-based crowdfunding campaigns, improving transactional traceability and transparency."
+      ],
+      "links": []
+    },
+    {
+      "title": "Calorie Calculator API",
+      "stack": "Django, RESTful API",
+      "bullets": [
+        "Designed a RESTful Django-based API delivering real-time nutritional data for food items, hosted and documented via GitHub.",
+        "Streamlined calorie tracking workflows, improving usability for web-based fitness applications."
+      ],
+      "links": []
+    }
+  ],
+  "skills": [
+    {
+      "group": "Programming Languages",
+      "skills": ["Java", "Python", "C++", "JavaScript", "SQL"]
+    },
+    {
+      "group": "Frameworks & Technologies",
+      "skills": ["Spring Boot", "Spring MVC", "Spring JDBC", "Spring ORM", "Spring Microservices", "Hibernate", "Tailwind CSS", "Django", "React", "Node.js"]
+    },
+    {
+      "group": "Cloud & Infrastructure",
+      "skills": ["AWS (Lambda, Step Functions, EventBridge, S3, CloudWatch)", "Terraform", "Spinnaker", "Jules (CI/CD)", "Liquibase"]
+    },
+    {
+      "group": "Databases",
+      "skills": ["PostgreSQL", "MySQL"]
+    },
+    {
+      "group": "Developer Tools",
+      "skills": ["Git", "GitHub", "Jira", "IntelliJ IDEA", "Eclipse", "Visual Studio Code", "Putty"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Kalinga Institute of Industrial Technology (KIIT University)",
+      "degree": "Bachelor of Technology in Computer Science and Engineering",
+      "dates": "August 2020 – May 2024",
+      "location": "Bhubaneswar, Odisha",
+      "details": "GPA: 8.54/10"
+    },
+    {
+      "institution": "Shakuntala Vidyalaya (CBSE)",
+      "degree": "Class XII",
+      "dates": "June 2019 – March 2020",
+      "location": "Chhattisgarh, India",
+      "details": "Percentage: 93.8%"
+    }
+  ],
+  "certifications": [
+    "Google Cloud Skills Boost",
+    "The Bits and Bytes of Computer Networking",
+    "IT Security: Defense against the digital dark arts",
+    "System Administration and IT Infrastructure Services",
+    "Technical Support Fundamentals"
+  ]
+}
