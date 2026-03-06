@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Abhyudaya Baghel",
-    "title": "Software Engineer",
+    "title": "Backend Engineer | Java • Spring Boot • AWS",
     "summary": "I am a proactive technology professional with hands-on experience in software development and data analysis. Armed with a Bachelor of Technology in Computer Science from Kalinga Institute of Industrial Technology, I specialize in Java, C++, Python, and JavaScript, alongside proficiency in frameworks like Django, React, and Node.js. My journey includes impactful internships where I developed dynamic systems in Python and optimized Java and SQL-based solutions, enhancing efficiency across inventory management and client data aggregation. Driven by a passion for innovation and problem-solving, my career journey has been marked by proficiency in languages such as Java, C++, Python, and JavaScript, complemented by expertise in frameworks like Django, React, and Node.js. I have honed these skills through hands-on projects, including a dynamic inventory management system in Python and optimized client data aggregation solutions using Java and SQL. My internships at Elite Techno Group and HighRadius have equipped me with practical experience in software development and data analysis, setting the stage for my next role in leveraging technology to drive impactful solutions. I am actively seeking opportunities where I can apply my technical skills and contribute to innovative projects. With a keen interest in roles that challenge me to innovate and solve complex problems using emerging technologies, I am eager to join a dynamic team that fosters growth and collaboration. Let's connect to explore how my skills can contribute to your organization's success.",
     "location": "Hyderabad, India",
     "email": "baghelabhyudaya@gmail.com",
@@ -15,7 +15,7 @@
   "experience": [
     {
       "company": "Deloitte",
-      "role": "AWS Java Developer",
+      "role": "Software Engineer 1",
       "dates": "November 2024 – Present",
       "location": "Hyderabad, India",
       "bullets": [
@@ -62,9 +62,9 @@
       "context": "Achieved by debugging and optimizing Java–Spring–SQL applications at HighRadius."
     },
     {
-      "item": "40%",
-      "title": "Record Management Improvement",
-      "context": "Improved by developing a dynamic inventory management system using Python and JSON."
+      "item": "Recognized",
+      "title": "Performance Excellence",
+      "context": "Recognized at Deloitte for delivering high-quality backend solutions and demonstrating strong ownership in enterprise-scale systems."
     }
   ],
   "projects": [

@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'motion/react';
-import { ArrowDown, Download, Terminal } from 'lucide-react';
+import { ArrowDown, Download, Terminal, Eye } from 'lucide-react';
 import resumeData from '@/data/resume.json';
 
 export default function Hero() {
@@ -10,7 +10,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative flex min-h-screen flex-col items-center justify-center px-6 pt-20 text-center">
+    <section className="relative flex min-h-screen flex-col items-center justify-center px-6 pt-20 pb-24 text-center">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -32,7 +32,7 @@ export default function Hero() {
           {resumeData.basics.summary.split('.')[0]}. {resumeData.basics.summary.split('.')[1]}.
         </p>
 
-        <div className="flex flex-col gap-4 sm:flex-row">
+        <div className="flex flex-col gap-4 sm:flex-row sm:flex-wrap justify-center">
           <button
             onClick={scrollToExperience}
             className="group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full bg-white px-8 py-4 text-sm font-medium text-slate-950 transition-transform hover:scale-105 active:scale-95"
@@ -41,6 +41,16 @@ export default function Hero() {
             <ArrowDown className="h-4 w-4 transition-transform group-hover:translate-y-1" />
           </button>
           
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full border border-white/10 bg-white/5 px-8 py-4 text-sm font-medium text-white backdrop-blur-md transition-all hover:bg-white/10 hover:scale-105 active:scale-95"
+          >
+            <span>View Resume</span>
+            <Eye className="h-4 w-4 transition-transform group-hover:scale-110" />
+          </a>
+
           <a
             href="/resume.pdf"
             download="Abhyudaya_Baghel_Resume.pdf"
@@ -52,16 +62,19 @@ export default function Hero() {
         </div>
       </motion.div>
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.5, duration: 1 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce"
-      >
-        <div className="flex h-10 w-6 items-start justify-center rounded-full border-2 border-white/20 p-1">
-          <div className="h-2 w-1.5 rounded-full bg-white/60" />
-        </div>
-      </motion.div>
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2">
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.5, duration: 1 }}
+        >
+          <div className="animate-bounce">
+            <div className="flex h-10 w-6 items-start justify-center rounded-full border-2 border-white/20 p-1">
+              <div className="h-2 w-1.5 rounded-full bg-white/60" />
+            </div>
+          </div>
+        </motion.div>
+      </div>
     </section>
   );
 }
