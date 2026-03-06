@@ -41,13 +41,15 @@ export default function Hero() {
             <ArrowDown className="h-4 w-4 transition-transform group-hover:translate-y-1" />
           </button>
           
-          <button
+          <a
+            href="https://drive.google.com/file/d/1i6LKON2xv_F_155OFFlNNQC52qFVln8A/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
             className="group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full border border-white/10 bg-white/5 px-8 py-4 text-sm font-medium text-white backdrop-blur-md transition-all hover:bg-white/10 hover:scale-105 active:scale-95"
-            onClick={() => window.print()}
           >
             <span>Download Resume</span>
             <Download className="h-4 w-4 transition-transform group-hover:-translate-y-1" />
-          </button>
+          </a>
         </div>
       </motion.div>
 
